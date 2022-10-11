@@ -1,0 +1,38 @@
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: rgb(22, 113, 218);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 350px;
+}
+
+#btn {
+    margin-top: 20px;
+    padding: 1em;
+    border-color: aqua;
+    border-radius: 5px;
+    display: block;
+}
+
+#risultato {
+    margin-top: 10px;
+    text-decoration: underline;
+    font-style: italic;
+}
