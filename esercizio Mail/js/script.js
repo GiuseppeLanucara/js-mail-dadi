@@ -11,5 +11,16 @@ const listaEmail = ['pippo@gmail.com', 'pluto@gmail.com', 'pinco@gmail.com', 'pa
 console.log(listaEmail);
 
 //Controllare che la mail dell'utente sia nella lista delle email contenute nell'ARRAY
-for (let i = 0; i<listaEmail.length; i++);
+for (let i = 0; i<listaEmail.length; i++) {
+    console.log(i);
+    let emailLista = listaEmail[i];
+
+    if (emailLista === emailUtente) {
+        console.log("Accesso Consentito");
+
+    } else {
+        console.log("Accesso Negato");
+        
+    }
+};
 //OUTPUT : Messaggio esito controllo quindi sia positivo che negativo.
