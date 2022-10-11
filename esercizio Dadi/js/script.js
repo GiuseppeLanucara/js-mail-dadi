@@ -3,20 +3,21 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.*/
 
 
 
-//generare numero random giocatore
-btn.addEventListener("click", function () {
+//eventListener alla pressione del tasto 
+    btn.addEventListener("click", function () {
     console.log("Event listener");
 
+//generare numero random giocatore
     const numeroGiocatore = parseInt(Math.ceil(Math.random() * 6));
-console.log(numeroGiocatore, typeof (numeroGiocatore)); 
+    console.log(numeroGiocatore, typeof (numeroGiocatore)); 
 
 //generare numero random computer 
-const numeroComputer = parseInt(Math.ceil(Math.random() * 6));
-console.log(numeroComputer, typeof (numeroComputer));
+    const numeroComputer = parseInt(Math.ceil(Math.random() * 6));
+    console.log(numeroComputer, typeof (numeroComputer));
 
-if (numeroGiocatore > numeroComputer) {
+    if (numeroGiocatore > numeroComputer) {
     document.getElementById("risultato").innerHTML = "HAI VINTO!";
-} else {
+    } else {
     document.getElementById("risultato").innerHTML = "HA VINTO IL COMPUTER!";
 }
 });
