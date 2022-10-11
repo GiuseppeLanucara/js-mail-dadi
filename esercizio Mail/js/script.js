@@ -17,10 +17,13 @@ for (let i = 0; i<listaEmail.length; i++) {
 
     if (emailLista === emailUtente) {
         console.log("Accesso Consentito");
+        alert("Accesso Consentito");
 
     } else {
         console.log("Accesso Negato");
-        
+        alert("Accesso Negato");
     }
+
+
 };
 //OUTPUT : Messaggio esito controllo quindi sia positivo che negativo.
